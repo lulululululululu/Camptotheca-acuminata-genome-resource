@@ -1,5 +1,13 @@
 # Data dictionary
 
+## Archive identifiers
+
+This GitHub repository release is archived at Zenodo under DOI
+https://doi.org/10.5281/zenodo.20156886. The DOI applies to the workflow
+records, metadata files, data dictionaries and small source-data tables in this
+repository. Large raw-read, genome assembly and annotation files should be cited
+through their own public repository accessions or DOIs once deposited.
+
 ## Coordinate conventions
 
 Unless otherwise stated, chromosome coordinates in source-data tables use
@@ -28,5 +36,5 @@ half-open intervals and should state this explicitly in the file description.
 ## Missing values
 
 `NA` indicates a missing, not applicable or not yet assigned field, depending on
-the table context. Repository accessions and DOI fields should be updated after
-public deposition.
+the table context. Repository accessions for large sequence, assembly and
+annotation files should be updated after public deposition.

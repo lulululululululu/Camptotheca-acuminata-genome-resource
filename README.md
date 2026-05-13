@@ -23,8 +23,9 @@ genome assembly resource for *Camptotheca acuminata*.
 Large files, including raw ONT reads, final genome FASTA files, gene annotation
 files, repeat annotation files and Hi-C contact-map files, are not stored
 directly in this GitHub repository. These files should be deposited in public
-sequence or data repositories. Repository accessions and DOIs will be added to
-the manuscript and data inventory before formal submission.
+sequence or data repositories. Repository accessions for these large sequence,
+assembly and annotation files will be added to the manuscript and data
+inventory before formal submission.
 
 ## Reproducibility
 
@@ -33,7 +34,12 @@ Each major computational step is documented in `workflow_records/` and indexed i
 structure and use cluster-specific absolute paths; users should replace these
 paths with local file locations before rerunning the workflow.
 
-## Citation
+## Archived release
 
-A versioned GitHub release will be archived with Zenodo before formal
-submission. Please cite the Zenodo DOI once available.
+This repository release has been archived with Zenodo:
+
+- DOI: https://doi.org/10.5281/zenodo.20156886
+- GitHub: https://github.com/lulululululululu/Camptotheca-acuminata-genome-resource
+
+Please cite the Zenodo DOI when using these workflow records, metadata files or
+small source-data tables.

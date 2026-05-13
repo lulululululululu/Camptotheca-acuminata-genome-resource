@@ -5,6 +5,11 @@ the genome assembly, annotation, validation tables and manuscript figures for th
 Scientific Data submission. The scripts are intended as reproducibility records:
 cluster-specific absolute paths should be replaced by local paths before reuse.
 
+Archived workflow release:
+
+- GitHub: https://github.com/lulululululululu/Camptotheca-acuminata-genome-resource
+- Zenodo DOI: https://doi.org/10.5281/zenodo.20156886
+
 ## Directory map
 
 - `primary_workflow/01_ont_qc_filtering.sh`: ONT read QC and Filtlong filtering.
