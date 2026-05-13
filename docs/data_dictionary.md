@@ -3,7 +3,7 @@
 ## Archive identifiers
 
 This GitHub repository release is archived at Zenodo under DOI
-https://doi.org/10.5281/zenodo.20156886. The DOI applies to the workflow
+https://doi.org/10.5281/zenodo.20158760. The DOI applies to the workflow
 records, metadata files, data dictionaries and small source-data tables in this
 repository. Large raw-read, genome assembly and annotation files should be cited
 through their own public repository accessions or DOIs once deposited.

@@ -8,7 +8,7 @@ cluster-specific absolute paths should be replaced by local paths before reuse.
 Archived workflow release:
 
 - GitHub: https://github.com/lulululululululu/Camptotheca-acuminata-genome-resource
-- Zenodo DOI: https://doi.org/10.5281/zenodo.20156886
+- Zenodo DOI: https://doi.org/10.5281/zenodo.20158760
 
 ## Directory map
 

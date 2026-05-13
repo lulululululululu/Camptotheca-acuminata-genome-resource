@@ -38,7 +38,7 @@ paths with local file locations before rerunning the workflow.
 
 This repository release has been archived with Zenodo:
 
-- DOI: https://doi.org/10.5281/zenodo.20156886
+- DOI: https://doi.org/10.5281/zenodo.20158760
 - GitHub: https://github.com/lulululululululu/Camptotheca-acuminata-genome-resource
 
 Please cite the Zenodo DOI when using these workflow records, metadata files or

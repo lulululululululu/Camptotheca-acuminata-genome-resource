@@ -1,9 +1,9 @@
 bc52411b08d772218af3114f5a10659f  .gitignore
-5d23cbf729705bd9047469e3fce47ea7  CITATION.cff
+e74c99388fe6b7e1a0f52add7e718f36  CITATION.cff
 26a2d8eff41ea56fba7a561f53049643  LICENSE
-a3275acc43727920715fbd7a9f92c770  README.md
-be3168917abec144fc6942b087cd6eea  data_inventory.tsv
-29d5782508e9b4c86ba686c734ede1f3  docs/data_dictionary.md
+5235bf802a279da804a3a976bb9fd40d  README.md
+9b8f749fea57bf27f3cf15035df6ea14  data_inventory.tsv
+e8cdc84bb2783430ad459f7177ab1802  docs/data_dictionary.md
 82a14621732093ca900b5ab51fe264fe  metadata/homologous_protein_evidence.tsv
 afbceab3cf35965ffa9313c9e401c7d0  metadata/public_rnaseq_datasets.tsv
 7e854e056eea288d456a56577e11fabf  metadata/software_versions.tsv
@@ -28,7 +28,7 @@ de4d0c86d14b5a2743bc66042f36d353  source_data/figure_source_data/synteny_blocks.
 be47363bdade7054c4774edf30049927  workflow_records/README_functional_annotation.md
 8154e7cecd8e7f83fd092a3d49a16555  workflow_records/README_gapfill_mummer.md
 d7c63587e22f47e53c14f8ba64e45475  workflow_records/README_tgsgap_ultralong.md
-ef7c22c8a51c9bef21dbc709598dc37c  workflow_records/README_workflow.md
+2f97cbd18294382f4a099d14b73b865c  workflow_records/README_workflow.md
 e5c6dfaf976d53f68a50e22dec31fe31  workflow_records/geta_full_annotation.slurm
 abee56feecfb10d53dbfedf0863ed7ea  workflow_records/primary_workflow/01_ont_qc_filtering.sh
 f4f6f8be146f33ab084b993e4a2ab4f8  workflow_records/primary_workflow/02_hifiasm_assembly.sh
