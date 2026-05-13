@@ -1,0 +1,5 @@
+chrom	gap_start	gap_end	gap_len	window_start	window_end	primary_alignments	left_flank_supported	right_flank_supported	span_gap_alignments
+chr7	20525001	20525500	500	20425001	20625500	222	14	3	0
+chr12	9146689	9147188	500	9046689	9247188	50	2	1	0
+chr15	11282180	11282679	500	11182180	11382679	49	1	1	0
+chr17	1113761	1114260	500	1013761	1214260	107	0	3	0

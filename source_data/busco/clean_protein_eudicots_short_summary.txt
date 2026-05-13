@@ -1,0 +1,17 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: eudicots_odb10 (Creation date: 2024-01-08, number of genomes: 31, number of BUSCOs: 2326)
+# Summarized benchmarking in BUSCO notation for file /public/home/ryx13/genome_cad/busco/inputs/Camptotheca_acuminata_T2T.protein.clean.no_stop.fasta
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:97.8%[S:90.1%,D:7.7%],F:0.6%,M:1.6%,n:2326	   
+	2274	Complete BUSCOs (C)			   
+	2096	Complete and single-copy BUSCOs (S)	   
+	178	Complete and duplicated BUSCOs (D)	   
+	14	Fragmented BUSCOs (F)			   
+	38	Missing BUSCOs (M)			   
+	2326	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

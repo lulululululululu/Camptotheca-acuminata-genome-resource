@@ -1,0 +1,39 @@
+# Large sequencing and genome files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fasta
+*.fa
+*.fna
+*.bam
+*.sam
+*.cram
+*.bai
+*.hic
+*.cool
+*.mcool
+*.paf
+*.gfa
+*.gff
+*.gff3
+*.gtf
+*.vcf
+*.vcf.gz
+
+# Large archives and temporary outputs
+*.tar
+*.tar.gz
+*.zip
+*.7z
+logs/
+tmp/
+temp/
+*.err
+*.out
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

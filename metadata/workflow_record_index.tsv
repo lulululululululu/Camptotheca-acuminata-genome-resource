@@ -1,0 +1,14 @@
+workflow_id	step	input	software	version	key_parameters	output	full_command_file
+WR01	ONT QC and filtering	raw ONT FASTQ	NanoStat, NanoPlot, Filtlong	v1.46.2; 0.3.1	--min_length 1000; --keep_percent 90	filtered ONT FASTQ	workflow_records/primary_workflow/01_ont_qc_filtering.sh
+WR02	Initial assembly	filtered ONT FASTQ	hifiasm	0.25.0-r726	--ont; 32 threads	initial contig assembly	workflow_records/primary_workflow/02_hifiasm_assembly.sh
+WR03	Hi-C scaffolding and review	hifiasm contigs + public Hi-C reads	Juicer, 3D-DNA, Juicebox	2.0; 180922; manual review	DpnII; post-review scaffolding	final chromosome-scale pseudomolecules	workflow_records/primary_workflow/03_hic_juicer_3ddna.sh
+WR04	Chromosome landmark detection	final 21-chromosome FASTA	plothic, CentIER, TIDK	1.0.0; V_3.0.1; 0.2.65	25-kb Hi-C heatmap; k=21; window=10 kb	heatmap PDF; centromere table; telomere table	workflow_records/primary_workflow/04_landmark_detection.sh
+WR05	Genome annotation	final 21-chromosome FASTA + RNA-seq + proteins	GETA	2.7.1	public RNA-seq evidence; six protein resources	GFF3/GTF/CDS/cDNA/gene/protein FASTA	workflow_records/geta_full_annotation.slurm
+WR06	Repeat annotation	final 21-chromosome FASTA	EDTA	2.3	--species others; --step all; --anno 1; --evaluate 1; --sensitive 1	TE annotation GFF3/GTF/SUM	workflow_records/05_edta_repeat_annotation.sh
+WR07	Swiss-Prot functional annotation	final clean protein FASTA	DIAMOND	2.1.24	--evalue 1e-5; --max-target-seqs 1	Swiss-Prot best-hit table	workflow_records/run_swissprot_diamond.slurm
+WR08	Pfam functional annotation	final clean protein FASTA	HMMER hmmscan	3.4	--cut_ga	Pfam domtblout/table	workflow_records/run_pfam_hmmscan.slurm
+WR09	eggNOG-mapper functional annotation	final clean protein FASTA	eggNOG-mapper	emapper-2.1.13	diamond mode; local eggNOG DB	eggNOG annotation table	workflow_records/run_eggnog_mapper.slurm
+WR10	KofamScan functional annotation	final clean protein FASTA	KofamScan	1.3.0	detail-tsv and mapper-one-line outputs	KEGG orthology tables	workflow_records/run_kofamscan.slurm
+WR11	Assembly validation	final 21-chromosome FASTA + clean protein FASTA	QUAST, BUSCO, LTR_retriever, GenomeTools	5.3.0; 6.0.0; 3.0.5; 1.6.7	Genome and protein BUSCO; LAI	final validation summaries	workflow_records/validation/01_quast_busco_lai.sh
+WR12	ONT remapping validation	final 21-chromosome FASTA + filtered ONT FASTQ	minimap2, samtools	2.30-r1287; 1.9	-ax map-ont; sort; flagstat; depth	coverage and mapping summaries	workflow_records/validation/02_ont_mapping_coverage.sh
+WR13	Figure and source-data notes	repository source-data tables	Markdown notes + R figure script	n/a	Figure 3 source data mapping	workflow and source-data notes	workflow_records/validation/03_summary_tables_and_figures.md

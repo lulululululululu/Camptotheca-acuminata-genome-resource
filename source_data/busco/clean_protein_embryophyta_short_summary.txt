@@ -1,0 +1,17 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: embryophyta_odb10 (Creation date: 2024-01-08, number of genomes: 50, number of BUSCOs: 1614)
+# Summarized benchmarking in BUSCO notation for file /public/home/ryx13/genome_cad/busco/inputs/Camptotheca_acuminata_T2T.protein.clean.no_stop.fasta
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:98.0%[S:92.8%,D:5.3%],F:0.6%,M:1.4%,n:1614	   
+	1582	Complete BUSCOs (C)			   
+	1497	Complete and single-copy BUSCOs (S)	   
+	85	Complete and duplicated BUSCOs (D)	   
+	9	Fragmented BUSCOs (F)			   
+	23	Missing BUSCOs (M)			   
+	1614	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

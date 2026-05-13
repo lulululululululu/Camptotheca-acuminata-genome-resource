@@ -1,0 +1,41 @@
+software_or_resource	version_or_release	path_or_source	used_for	note
+hifiasm	0.25.0-r726	/public/share/ac4w0a7em6/ryx13_software/hifiasm/hifiasm	ONT de novo genome assembly	Version queried with --version.
+Juicer	2.0	/public/share/ac4w0a7em6/ryx13_software/juicer/SLURM/scripts/juicer.sh	Hi-C read processing and contact-map generation	Version reported in Juicer inter.txt.
+BWA	0.7.17-r1188	Juicer pipeline dependency	Hi-C read alignment	Version reported in Juicer inter.txt.
+Juicer Tools	2.20.00	/public/share/ac4w0a7em6/ryx13_software/juicer/SLURM/scripts/juicer_tools.jar	Hi-C contact-map processing	Version reported in Juicer inter.txt.
+OpenJDK	1.8.0_181	Juicer pipeline dependency	Running Juicer Tools	Version reported in Juicer inter.txt.
+3D-DNA	180922	/public/share/ac4w0a7em6/ryx13_software/3d-dna/run-asm-pipeline.sh	Hi-C chromosome scaffolding	Version variable reported in local script.
+3D-DNA post-review	180114	/public/share/ac4w0a7em6/ryx13_software/3d-dna/run-asm-pipeline-post-review.sh	Post-review assembly generation	Version reported in local script comments/help text.
+plothic	1.0.0	/public/share/ac4w0a7em6/ryx13_software/micromamba/envs/plothic_env/bin/plothic	Hi-C heatmap plotting	Version queried with --version.
+TIDK	0.2.65	/public/share/ac4w0a7em6/ryx13_software/micromamba/envs/tidk_env/bin/tidk	Telomeric-repeat detection	Version queried with --version.
+CentIER	V_3.0.1	/public/share/ac4w0a7em6/ryx13_software/CentIER/centIER.py	Centromere prediction	Version variable found in centIER.py.
+LTR_retriever	3.0.5	/public/share/ac4w0a7em6/ryx13_software/micromamba/envs/centier_env/bin/LTR_retriever	LTR retrotransposon annotation and LAI analysis	Version queried with -h.
+GenomeTools gt	1.6.7	/public/share/ac4w0a7em6/ryx13_software/genometools/bin/gt	LTRharvest/sequence utilities	Version queried with -version.
+EDTA	2.3	/public/share/ac4w0a7em6/ryx13_software/micromamba/envs/EDTA2.3/bin/EDTA.pl	Final transposable-element annotation of the 21-chromosome assembly	Version recorded from EDTA run environment.
+GETA	2.7.1	/public/share/ac4w0a7em6/ryx13_software/geta/bin/geta.pl	Genome annotation	Version reported by geta.pl help.
+ParaFly	GETA bundled ParaFly	/public/share/ac4w0a7em6/ryx13_software/geta/bin/ParaFly	Parallel command execution for GETA	Standalone binary did not report version; recorded as bundled with GETA 2.7.1.
+GNU parallel	20150322	/opt/clusconf/libexec/tools/parallel	Parallel command execution	Version queried with --version.
+BLAST+ blastp	2.10.0+	/public/software/apps/blast/2.10.0/bin/blastp	Protein sequence comparison	Version queried with -version.
+BLAST+ makeblastdb	2.10.0+	/public/software/apps/blast/2.10.0/bin/makeblastdb	BLAST database construction	Version queried with -version.
+samtools	1.9	/public/software/apps/samtools/1.9/gcc-7.3.1/bin/samtools	FASTA/BAM utilities	Version queried with --version.
+HMMER hmmscan	3.4	/public/share/ac4w0a7em6/ryx13_software/hmmer-3.4-install/bin/hmmscan	HMM/Pfam scanning	Version queried with -h.
+DIAMOND	2.1.24	/public/share/ac4w0a7em6/ryx13_software/diamond	Fast protein sequence comparison	Version queried with version.
+exonerate	2.4.0	/public/share/ac4w0a7em6/ryx13_software/exonerate/bin/exonerate	Homology-based gene evidence alignment	Version queried with --version.
+Pfam-A.hmm	DATE Wed May 28 08:53:46 2025	/public/home/ryx13/genome_cad/geta/pfam/Pfam-A.hmm	Protein-domain HMM database for GETA	Pfam file header reports HMMER3/f and DATE; exact Pfam release number not found in file header.
+eggNOG-mapper	emapper-2.1.13	/public/share/ac4w0a7em6/ryx13_software/micromamba/envs/eggnog_mapper/bin/emapper.py	Functional annotation against eggNOG/COG, GO and KEGG	DB warning appears when querying version because the package looks for its default internal database path; local functional database is provided separately in databases/functional_annotation/eggnog.
+kofamscan	1.3.0	/public/share/ac4w0a7em6/ryx13_software/kofam_scan/kofam_scan-master/exec_annotation	KEGG orthology assignment for functional annotation	Version found in KofamScan source/lib/kofam_scan.rb.
+minimap2	2.30-r1287	/public/share/ac4w0a7em6/ryx13_software/micromamba/envs/centier_env/bin/minimap2	ONT read alignment back to final 21-chromosome assembly	Used with -ax map-ont in /public/home/ryx13/genome_cad/scripts/slurm_ont_reads_mapping_stats.sh.
+RepeatMasker	4.2.3	/public/share/ac4w0a7em6/ryx13_software/micromamba/envs/geta_env/bin/RepeatMasker	Repeat masking support during GETA gene annotation	Version queried with -v.
+RepeatModeler	2.0.7	/public/share/ac4w0a7em6/ryx13_software/micromamba/envs/geta_env/bin/RepeatModeler	De novo repeat-family modelling support during GETA gene annotation	Version printed by help output.
+Dfam	Viridiplantae partition configured in GETA/RepeatMasker	GETA parameter --RM_species_Dfam Viridiplantae	Repeat-family evidence used during GETA gene annotation	Exact Dfam release should be confirmed from the RepeatMasker library configuration before final submission.
+QUAST	5.3.0	/public/share/ac4w0a7em6/ryx13_software/micromamba/envs/quast/bin/quast	Genome-assembly structural validation	Version queried with --version.
+Repbase	Viridiplantae library configured in GETA/RepeatMasker	GETA parameter --RM_species_RepBase Viridiplantae	Repeat-family evidence used during GETA gene annotation	Exact Repbase release should be confirmed from the RepeatMasker library configuration before final submission.
+NanoPlot	1.46.2	/public/home/ryx13/genome_cad/ont_raw_qc/nanoplot_raw/ONT_rawNanoPlot_20260414_1758.log; /public/home/ryx13/genome_cad/ont_raw_qc/nanoplot_filt/ONT_filtlongNanoPlot_20260415_0059.log	ONT read QC plotting	Version recorded in NanoPlot log files.
+Filtlong	0.3.1	GitHub release rrwick/Filtlong v0.3.1	ONT read filtering	Used with --min_length 1000 and --keep_percent 90; command record provided in workflow_records/primary_workflow/01_ont_qc_filtering.sh.
+R	4.5.1	R Project for Statistical Computing	Figure generation	Version provided by figure-generation environment; executable path not available in current login-node PATH.
+circlize	0.4.18	R package	Chromosome-scale Circos-style visualization	Used for Figure 3.
+ggplot2	4.0.2	R package	Figure generation	Used for manuscript figure generation.
+data.table	1.17.8	R package	Data import and table processing for figure generation	Supporting R package used in figure scripts.
+dplyr	1.2.1	R package	Data manipulation for figure generation	Supporting R package used in figure scripts.
+tidyr	1.3.2	R package	Data reshaping for figure generation	Supporting R package used in figure scripts.
+tibble	3.3.1	R package	Tidy tabular data handling for figure generation	Supporting R package used in figure scripts.

@@ -1,0 +1,49 @@
+file name	format	repository path	description	generated or reused	size	md5	related section
+Camptotheca_acuminata_T2T_21chr.fasta	FASTA	public genome repository	Final 21-chromosome assembly FASTA	generated	414585425 bp	a4ff6323ce7c46af8ecea9914030e806	Data Records / Final genome assembly
+Camptotheca_acuminata_T2T_21chr.fasta.fai	FASTA index	public genome repository	FASTA index for the final assembly	generated	21 records	NA	Data Records / Final genome assembly
+Camptotheca_acuminata_T2T_gene_models.clean.gff3	GFF3	public genome repository	Chromosome-coordinate cleaned gene models	generated	31,752 genes	f10d928a0394895af2ac3d1ce01e92c1	Data Records / Genome annotation files
+Camptotheca_acuminata_T2T_gene_models.gtf	GTF	public genome repository	Chromosome-coordinate GTF derived from GETA output	generated	47,842 transcripts	6a1f28c565976124760367dab066826f	Data Records / Genome annotation files
+Camptotheca_acuminata_T2T_CDS.clean.fasta	FASTA	public genome repository	Clean CDS sequences for the final annotation	generated	31,752 sequences	a27f6aefc6e6aa89a62a7e4f22556021	Data Records / Genome annotation files
+Camptotheca_acuminata_T2T_cDNA.clean.fasta	FASTA	public genome repository	Clean cDNA sequences for the final annotation	generated	31,752 sequences	NA	Data Records / Genome annotation files
+Camptotheca_acuminata_T2T_gene.clean.fasta	FASTA	public genome repository	Clean gene sequences for the final annotation	generated	31,752 sequences	NA	Data Records / Genome annotation files
+Camptotheca_acuminata_T2T_protein.clean.fasta	FASTA	public genome repository	Clean protein sequences for the final annotation	generated	31,752 sequences	602624d4e1699f548329f69507123f49	Data Records / Genome annotation files
+Camptotheca_acuminata_T2T_EDTA_TEanno.gff3	GFF3	public repository	EDTA repeat annotations on the final assembly	generated	assembly-wide	f7c80a983b354080375849eb47d8c24b	Data Records / Genome annotation files
+Camptotheca_acuminata_T2T_EDTA_TEanno.gtf	GTF	public repository	EDTA repeat annotations on the final assembly	generated	assembly-wide	NA	Data Records / Genome annotation files
+Camptotheca_acuminata_T2T_EDTA_TElib.fa	FASTA	public repository	Non-redundant EDTA repeat library	generated	assembly-wide	edbb2363406bdf3663139bfaec7b0029	Data Records / Genome annotation files
+Camptotheca_acuminata_T2T_EDTA_TEanno.sum	TSV	public repository	EDTA repeat-annotation summary	generated	assembly-wide	NA	Data Records / Genome annotation files
+SwissProt_DIAMOND_best_hits.tsv	TSV	public repository	Swiss-Prot best-hit table	generated	31,752 proteins	350e04b5ca10cbb683ebaac0c10f462d	Data Records / Genome annotation files
+Pfam_hmmscan.domtblout	HMMER domtblout	public repository	Pfam domain scan output	generated	31,752 proteins	80cd3ce02d8734ec7692136dfb26a1cc	Data Records / Genome annotation files
+eggNOG_mapper.annotations.tsv	TSV	public repository	eggNOG-mapper annotation table	generated	31,752 proteins	c261980a92da39549f04b77798bff9cb	Data Records / Genome annotation files
+KofamScan_KO.detail.tsv	TSV	public repository	KofamScan detail output	generated	31,752 proteins	eba2d1f4f360be816105ce87068aec3e	Data Records / Genome annotation files
+KofamScan_KO.mapper.tsv	TSV	public repository	KofamScan mapper output	generated	31,752 proteins	NA	Data Records / Genome annotation files
+functional_annotation_summary.tsv	TSV	public repository	Combined functional-annotation summary	generated	31,752 proteins	NA	Data Records / Genome annotation files
+ONT_filtered_reads_mapping_coverage.tsv	TSV	public repository	ONT read coverage summary on the final assembly	generated	21 chromosomes	b6dd77f33ef8528bac3faee9e03a5568	Data Records / Derived validation and source-data tables
+residual_gaps.tsv	TSV	public repository	Residual scaffold-gap coordinates and support	generated	4 gaps	cd7315dfdf5bace4bab6e0f3e099e6fb	Data Records / Derived validation and source-data tables
+gap_spanning_read_summary.tsv	TSV	public repository	Gap-spanning ONT read support summary	generated	4 gaps	c932d5822d51fc49c1b4b5fd09a75491	Data Records / Derived validation and source-data tables
+gap_split_read_support_summary.tsv	TSV	public repository	Split-read support summary for unresolved gaps	generated	4 gaps	f4a8c5a6e45e3e76c65a9b3e9f4a1d90	Data Records / Derived validation and source-data tables
+LTR_retriever_LAI_raw_output.tsv	TSV	public repository	LAI output and sliding-window records	generated	genome-wide windows	NA	Data Records / Derived validation and source-data tables
+BUSCO_summary_combined.tsv	TSV	public repository	Combined BUSCO summaries	generated	multiple genomes/proteins	20da1d5cbe937ff2fed2be710233a088	Data Records / Derived validation and source-data tables
+final_genome_eudicots_short_summary.txt	TXT	public repository	Genome-mode BUSCO summary for final assembly	generated	eudicots_odb10	NA	Data Records / Derived validation and source-data tables
+final_genome_embryophyta_short_summary.txt	TXT	public repository	Genome-mode BUSCO summary for final assembly	generated	embryophyta_odb10	NA	Data Records / Derived validation and source-data tables
+clean_protein_eudicots_short_summary.txt	TXT	public repository	Protein-mode BUSCO summary for clean proteins	generated	eudicots_odb10	NA	Data Records / Derived validation and source-data tables
+clean_protein_embryophyta_short_summary.txt	TXT	public repository	Protein-mode BUSCO summary for clean proteins	generated	embryophyta_odb10	NA	Data Records / Derived validation and source-data tables
+circos.R	R script	public repository	Script used to generate the Circos-style summary figure	generated	figure script	26eb6fc41fb01c3e2797d942a18f01a7	Data Records / Derived validation and source-data tables
+circos_chr_size.fixed.txt	TSV	public repository	Chromosome size source data for Circos figure	generated	21 chromosomes	NA	Data Records / Derived validation and source-data tables
+gc_90kb.fixed.txt	TSV	public repository	GC window source data for Circos figure	generated	90-kb windows	NA	Data Records / Derived validation and source-data tables
+gene_density_90kb.fixed.txt	TSV	public repository	Gene-density window source data for Circos figure	generated	90-kb windows	NA	Data Records / Derived validation and source-data tables
+repeat_percent_90kb.fixed.txt	TSV	public repository	Repeat-fraction window source data for Circos figure	generated	90-kb windows	NA	Data Records / Derived validation and source-data tables
+synteny_blocks.links.6col.txt	TSV	public repository	MCScanX synteny links used in the Circos figure	generated	top 100 blocks	de4d0c86d14b5a2743bc66042f36d353	Data Records / Derived validation and source-data tables
+README_circos_data_20260510.md	Markdown	public repository	Notes describing the Circos source-data files	generated	figure source data	NA	Data Records / Derived validation and source-data tables
+Supplementary_Table_11_HiC_Juicer_summary.tsv	TSV	manuscript supplementary tables	Hi-C provenance and Juicer summary	generated	public Hi-C dataset	a149962dc22fd22330ed36d1cc0938a8	Data Records / Derived validation and source-data tables
+Supplementary_Table_12_software_versions.tsv	TSV	manuscript supplementary tables	Software and database version inventory	generated	workflow software	362aacd62dcd72a6493c639073acc48e	Data Records / Derived validation and source-data tables
+Supplementary_Table_13_reused_RNAseq_datasets.tsv	TSV	manuscript supplementary tables	Reused RNA-seq accession table	generated	15 SRA runs	afbceab3cf35965ffa9313c9e401c7d0	Data Records / Derived validation and source-data tables
+Supplementary_Table_14_reused_homologous_protein_evidence.tsv	TSV	manuscript supplementary tables	Reused homologous-protein evidence table	generated	6 public resources	82a14621732093ca900b5ab51fe264fe	Data Records / Derived validation and source-data tables
+Supplementary_Table_15_QUAST_summary.tsv	TSV	manuscript supplementary tables	QUAST structural validation summary	generated	final assembly	b31aaf99e392efaf6c261c4fbb9fa9fd	Data Records / Derived validation and source-data tables
+README_workflow.md	Markdown	public repository	English overview of workflow records and command-script organization	generated	workflow documentation	NA	Code availability
+01_ont_qc_filtering.sh	Shell script	public repository	ONT read QC and Filtlong filtering command record	generated	workflow command record	NA	Code availability
+02_hifiasm_assembly.sh	Shell script	public repository	hifiasm ONT assembly command record	generated	workflow command record	NA	Code availability
+03_hic_juicer_3ddna.sh	Shell script	public repository	Juicer, 3D-DNA and post-review scaffolding command record	generated	workflow command record	NA	Code availability
+04_landmark_detection.sh	Shell script	public repository	plothic, CentIER and TIDK chromosome-landmark command record	generated	workflow command record	NA	Code availability
+01_quast_busco_lai.sh	Shell script	public repository	QUAST, BUSCO and LAI validation command record	generated	workflow command record	NA	Code availability
+02_ont_mapping_coverage.sh	Shell script	public repository	ONT remapping and coverage-summary command record	generated	workflow command record	NA	Code availability
+03_summary_tables_and_figures.md	Markdown	public repository	Notes linking validation summaries and figure source-data files	generated	workflow documentation	NA	Code availability
